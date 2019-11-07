@@ -4,15 +4,27 @@
  }
 
 body{
-    background-color: rgb(54, 54, 53);
+    background-color: cyan;
 }
 
+.jumbotron {
+	background-color: darkblue;
+	color: white;
+}
+
+.container {
+	padding-bottom: 150px;
+}
+
+.col-sm-3 {
+	padding: 10px;
+}
 footer {
-	position: relative;
+	position: fixed;
   	left: 0;
  	bottom: 0;
   	width: 100%;
-  	background-color: rgb(255, 255, 255);
-  	color: black;
+  	background-color:darkblue;
+  	color: white;
   	text-align: center;
 }
