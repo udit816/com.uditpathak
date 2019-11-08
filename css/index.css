@@ -14,7 +14,7 @@ body{
 
 
 .container {
-	padding-bottom: 150px;
+	padding-bottom: 30px;
 	color: #123C69;
 }
 
@@ -22,7 +22,7 @@ body{
 	padding: 10px;
 }
 footer {
-	position: fixed;
+	position: relative;
   	left: 0;
  	bottom: 0;
   	width: 100%;
