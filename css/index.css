@@ -10,8 +10,12 @@ body{
 .jumbotron {
 	background-color: #EDC7B7;
 	color: #123C69;
+	font-family: 'Kaushan Script', cursive;
 }
 
+h3 {
+	font-family: 'Kaushan Script', cursive;
+}
 
 .container {
 	padding-bottom: 30px;
@@ -28,5 +32,6 @@ footer {
   	width: 100%;
   	background-color:#EDC7B7;
   	color: #123C69;
-  	text-align: center;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
 }
