@@ -17,6 +17,9 @@ h3 {
 	font-family: 'Kaushan Script', cursive;
 }
 
+p {
+	font-family: sans-serif;
+}
 .container {
 	padding-bottom: 30px;
 	color: #123C69;
