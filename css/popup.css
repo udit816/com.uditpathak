@@ -48,7 +48,7 @@
   }
   .button.clicked button {
     visibility: hidden;
-    oacity: 0;
+    opacity: 0;
   }
   .popup {
     position: absolute;
@@ -134,7 +134,7 @@
     opacity: 0;
     transform: translateX(-60px);
     transition: 0.2s;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
    
   .popup .content .subscribe h1 {
