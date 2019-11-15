@@ -8,12 +8,12 @@ body{
 }
 
 .jumbotron {
-	background-color: #EDC7B7;
-	color: #123C69;
+	background-color: #123C69;
+	color: #EDC7B7;
 	font-family: 'Kaushan Script', cursive;
 }
 
-h3,h5 {
+h3,h5, #footer_text {
 	font-family: 'Kaushan Script', cursive;
 }
 
@@ -33,21 +33,21 @@ footer {
   	left: 0;
  	bottom: 0;
   	width: 100%;
-  	background-color:#EDC7B7;
-  	color: #123C69;
+  	background-color:#123C69;
+  	color: #EDC7B7;
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
 }
 
 .notification {
-	background-color: #EDC7B7;
-	color: #123C69;
+	background-color: #123C69;
+	color: #EDC7B7;
 	height: 150px;
 	width: 400px;
 	position: fixed;
 	bottom: 50px;
 	right: 50px;
 	padding: 5px;
-	border: 1px solid #123C69;
+	border: 1px solid #EDC7B7;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
