@@ -15,13 +15,14 @@ main {
 #img-div {
   padding: 50px;
   margin: auto;
-  background-color: ;
 }
 
 #image {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: auto;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #img-caption {
