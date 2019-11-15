@@ -38,3 +38,16 @@ footer {
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
 }
+
+.notification {
+	background-color: #EDC7B7;
+	color: #123C69;
+	height: 150px;
+	width: 400px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	padding: 5px;
+	border: 1px solid #123C69;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
