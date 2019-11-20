@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Survey Form - Assignment</title>
+    <meta charset="UTF-8">
+        <meta name="description" content="Survey Form">
+        <meta name="keywords" content="Blogger, photographer, writer, Udit Pathak, udit, pathak, developer">
+        <meta name="author" content="Udit Pathak">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../../css/projects/survey.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This could be your chance to win an Apple Macbook Pro 2019!<br>Hurry Up! Fill the survey!!</p>
+    </header>
+    <form id="survey-form">
+      <div class="form_elements">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required="">
+      </div>
+      <div class="form_elements">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required="">
+      </div>
+      <div class="form_elements">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" name="age" id="number" placeholder="Enter your Age" required="" min="18" max="35">
+      </div>
+      <div class="form_elements">
+        <p>Which brand do you vote as the best?</p>
+          <select id="dropdown" name="brand" required="">
+            <option disabled="" selected="" value="">Select brand</option>
+            <option value="apple">Apple</option>
+            <option value="dell">Dell</option>
+            <option value="lenovo">Lenovo</option>
+            <option value="hp">Hewlett Packard</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
+      <div class="form_elements">
+            <p>Which feature is a priority for you in laptops?</p>
+            <label><input name="feature" value="screen_size" type="radio" class="input-radio" checked="">Screen Size</label>
+            <label><input name="feature" value="ram" type="radio" class="input-radio">RAM</label>
+            <label><input name="feature" value="processor" type="radio" class="input-radio">Processor</label>
+            </div>
+      <div class="form_elements">
+            <p>
+            What all Feature would you prefer in a system of your choice?
+            <span class="clue">(Check all that apply)</span>
+            </p>
+            <label><input name="prefer" value="8_gb_ram" type="checkbox" class="input-checkbox">8 GB RAM</label>
+            <label><input name="prefer" value="i5_processor" type="checkbox" class="input-checkbox">i5 Processor</label>
+            <label><input name="prefer" value="i7_processor" type="checkbox" class="input-checkbox">i7 Processor</label>
+            <label><input name="prefer" value="screen_16" type="checkbox" class="input-checkbox">Screen size 16 inch</label>
+            <label><input name="prefer" value="screen_13" type="checkbox" class="input-checkbox">Screen size 13 inch</label>
+            <label><input name="prefer" value="1_tb_harddisk" type="checkbox" class="input-checkbox">1 TB Hard disk</label>
+            <label><input name="prefer" value="512_mb_sata" type="checkbox" class="input-checkbox">512 TB SSD</label>
+            <label><input name="prefer" value="4_gb_graphics" type="checkbox" class="input-checkbox">4 GB Graphics</label>
+            <label><input name="prefer" value="intel_graphics" type="checkbox" class="input-checkbox">Intel Graphics</label>
+        </div>
+        <div class="form_elements">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form_elements">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+  </body>
+</html>
