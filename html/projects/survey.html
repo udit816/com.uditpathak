@@ -26,10 +26,10 @@
       </div>
       <div class="form_elements">
         <label id="number-label" for="number">Age</label>
-        <input type="number" name="age" id="number" placeholder="Enter your Age" required="" min="18" max="35">
+        <input type="number" name="age" id="age" placeholder="Enter your Age" required="" min="18" max="65">
       </div>
       <div class="form_elements">
-        <p>Which brand do you vote as the best?</p>
+        <p class="questions">Which brand do you vote as the best?</p>
           <select id="dropdown" name="brand" required="">
             <option disabled="" selected="" value="">Select brand</option>
             <option value="apple">Apple</option>
@@ -40,16 +40,13 @@
           </select>
       </div>
       <div class="form_elements">
-            <p>Which feature is a priority for you in laptops?</p>
+            <p class="questions">Which feature is a priority for you in laptops?</p>
             <label><input name="feature" value="screen_size" type="radio" class="input-radio" checked="">Screen Size</label>
             <label><input name="feature" value="ram" type="radio" class="input-radio">RAM</label>
             <label><input name="feature" value="processor" type="radio" class="input-radio">Processor</label>
             </div>
       <div class="form_elements">
-            <p>
-            What all Feature would you prefer in a system of your choice?
-            <span class="clue">(Check all that apply)</span>
-            </p>
+            <p class="questions">What all Feature would you prefer in a system of your choice? (Check all that apply)</p>
             <label><input name="prefer" value="8_gb_ram" type="checkbox" class="input-checkbox">8 GB RAM</label>
             <label><input name="prefer" value="i5_processor" type="checkbox" class="input-checkbox">i5 Processor</label>
             <label><input name="prefer" value="i7_processor" type="checkbox" class="input-checkbox">i7 Processor</label>
@@ -61,7 +58,7 @@
             <label><input name="prefer" value="intel_graphics" type="checkbox" class="input-checkbox">Intel Graphics</label>
         </div>
         <div class="form_elements">
-            <p>Any comments or suggestions?</p>
+            <p class="questions">Any comments or suggestions?</p>
             <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
         </div>
         <div class="form_elements">

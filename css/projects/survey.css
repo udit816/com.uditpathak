@@ -1,47 +1,93 @@
-body {
-    font-family: 'Lato','Georgia','Times New Roman', serif;
-  }
-  
-  h1, p {
-    color: black;
-    line-height: 1.5em;
-  }
-  
-  #header {
-    text-align: center;
-    padding: 25px;
-    margin: auto;
-   }
-  
-  #survey-form {
-    background-color: rgb(207, 253, 2);
-    opacity: 85%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: block;
-    max-width: 40vw;
-    margin: auto;
-  }
-  
-  input {
-      display: block;
-      width: 100%;
-  }
+* {
+    padding:0;
+    margin: 0;
+}
 
-  @media (max-width: 500px) {
+body {
+	font-family: 'Lato','Georgia','Times New Roman', serif;
+	background-image: url("https://c.pxhere.com/photos/0a/37/background_blue_surface-1348725.jpg!d");
+}
+
+h1, p {
+	color: black;
+	line-height: 1.5em;
+}
+
+#header {
+	background-image: url("https://live.staticflickr.com/3313/3313974923_574b938988_b.jpg");
+	text-align: center;
+	padding: 25px;
+	margin: auto;
+	background-color: white;
+ }
+
+#survey-form {
+	background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314_960_720.jpg");
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: block;
+	max-width: 40vw;
+	margin: auto;
+}
+
+#name, #age, #email, #dropdown {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#name-label, #email-label, #number-label {
+    font-weight: 600;
+}
+
+.questions {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form_elements {
+    padding: 5px;
+}
+
+@media (max-width: 500px) {
     #survey-form {
       max-width: 90vw;
     }
   }
 
-  textarea {
-      min-height: 100px;
-      width: 100%;
-      padding: 10px;
-      resize: vertical;
+  label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: right;
+    width: 100%;
+    line-height: 10px;
+    margin-bottom: 10px;
   }
-
-  button {
-      display: block;
-      width: 100%;
+  
+  input {
+    flex: 0 0 30px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
   }
