@@ -1,4 +1,5 @@
 // Set the date we're counting down to
+
 var countDownDate = new Date("December 31, 2019 11:59:59").getTime();
 
 // Update the count down every 1 second
