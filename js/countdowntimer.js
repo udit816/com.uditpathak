@@ -16,7 +16,7 @@ let countDown = new Date('Dec 31, 2019 23:59:59').getTime(),
             document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
         } else {
             clearInterval(x);
-        document.getElementById("success").innerHTML = "Happy New year!";
+            document.getElementById("success").innerHTML = "Happy New year!";
         }
         
     }, second)
